@@ -9,7 +9,7 @@ generateBtn.addEventListener("click", function ()  {
     generateBtn.innerText = "Gerando..."
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=${qrValue}`;
     qrImg.addEventListener("load", function () {
-        generateBtn.innerText = "Gerar Qr Code"
+        generateBtn.innerText = "Gerar QRCode"
         container.classList.add("active");
     });
    
